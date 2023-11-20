@@ -1,11 +1,22 @@
 import Navbar from "./components/Navbar";
-import home from "./components/home";
+import Heropage from "./components/Heropage";
+import SocialLinks from "./components/SocialLinks";
+import About from "./components/About";
+import Projects from "./components/Projects";
+
+
+
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <home/>
+      <Heropage/>
+      <About/>
+      <Projects/>
+
+
+      <SocialLinks/>
     </div>
   );
 }
